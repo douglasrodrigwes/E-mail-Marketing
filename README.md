@@ -37,12 +37,11 @@ Pontos históricos interessantes que são relevantes para o comentário condicio
     <table>
       <tr>
         <td>
-        /* O conteúdo HTML específico que você quer que pegue no Outlook, vai aqui :)*/
+        /* O conteúdo HTML específico que você quer que pegue no Outlook, vai aqui :) */
         </td>
       </tr>
     </table>
 <![endif]-->
-}
 ```
    
 
