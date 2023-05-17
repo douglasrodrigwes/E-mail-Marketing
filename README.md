@@ -31,6 +31,7 @@ Pontos históricos interessantes que são relevantes para o comentário condicio
  - <b>Apple + futuro:</b> A Apple abre um caminho de possibilidades para seus usuários e desenvolvedores.
  - <b>O outlook:</b> Enquanto isso, o <i>outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
  <br>
+ 
 ```
 <!--[if mso]>
     <table>
