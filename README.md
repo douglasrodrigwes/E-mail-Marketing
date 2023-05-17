@@ -59,9 +59,9 @@ Comentário condicional no css:
 
 <br>
 
-Curso | Duração | Dedicação | Conteúdos
-:-- | :--: | :--: | :--: 
-[Aprendendo a aprender](https://pt.coursera.org/learn/aprender) ¹ | 3 Semanas | 5 horas/semana | Memória; Técnicas de estudo; Recursos de estudo.
+Versões do Outlook | Código
+:--: | :--:
+[Todos os Windows Outlook]. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
 [Como estudar do jeito certo](https://www.youtube.com/playlist?list=PL5TJqBvpXQv7Q2lT7L7BrTrh6tgZY872s) | 3 Semanas | 2 horas/semana | Tempo; Técnica; Discussão.
 
 
