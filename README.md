@@ -22,7 +22,7 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 <br>
 
 ## Comentários condicionais
-A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (<!-- -->), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>outlook</i> baseadas no Word.
+A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (< !-- -- >), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>outlook</i> baseadas no Word.
 
 Pontos históricos interessantes que são relevantes para o comentário condicional:
  - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
