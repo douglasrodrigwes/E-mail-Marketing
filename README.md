@@ -61,8 +61,8 @@ Comentário condicional no css:
 
 Versões do Outlook | Código
 :--: | :--:
-[Todos os Windows Outlook]. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
-[Como estudar do jeito certo](https://www.youtube.com/playlist?list=PL5TJqBvpXQv7Q2lT7L7BrTrh6tgZY872s) | 3 Semanas | 2 horas/semana | Tempo; Técnica; Discussão.
+Todos os Windows Outlook. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
+Todos os Windows Outlook. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
 
 
 
