@@ -59,10 +59,33 @@ Comentário condicional no css:
 
 <br>
 
+## Tabelas fantasmas 
+Uma abordagem comum para lidar com problemas de renderização no Outlook é o uso de tags MSO para criar "tabelas fantasmas". Essas tabelas são criadas para evitar que os e-mails híbridos se desintegrem no Outlook. No design híbrido, usamos propriedades CSS como inline-block, max-width e min-width para empilhar as colunas da tabela. No entanto, o Outlook não oferece suporte a essas propriedades CSS, então recorremos às tags MSO para criar essas "tabelas fantasmas" que aplicam uma largura fixa somente para o Outlook. Isso nos permite garantir uma renderização consistente do conteúdo nos diferentes clientes de e-mail.
+
+```
+Tabela fantasma:
+
+<!--[if mso]>
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tr>
+      <td width="340">
+        <![endif]-->
+            <div style="display:inline-block; width:100%; min-width:200px; max-width:340px;">
+              O Outlook não pode renderizar o CSS neste DIV, mas outros clientes de e-mail podem, então agrupamos isso em uma tabela fantasma que replica o estilo de área de trabalho da DIV. Neste caso, um contêiner de 340px de largura.
+            </div>
+        <!--[if mso]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+```
+
+<br>
+
 ## Direcionando versões específicas do outlook
 Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do <i>outlook</i>. No entanto, ocasionalmente, ao testar com o litmus, um e-mail pode parecer bom em uma versão do Outlook, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do <i>outlook</i>, excluindo outras.
 
-Versões do Outlook | Códigos
+Versões do Outlook | Código
 :--: | :--:
 Todos os windows outlook | < !--[if mso]> your code <![endif]-- >
 Outlook 2000 | < !--[if mso 9]> seu código <![endif]-- >
@@ -78,7 +101,7 @@ Outlook 2016 | < !--[if mso 16]> seu código <![endif]-- >
 ## Lógica condicional 
 Os operadores permitem criar expressões condicionais para segmentar diferentes versões do <i>outlook</i>.
 
-Lógica | Descrição | Códigos
+Lógica | Descrição | Código
 :--: | :--: | :--:
 gt | Maior que | < !--[if gt mso 14]> Tudo acima do Outlook 2010 <![endif]-- > 
 lt | Menor que | < !--[if lt mso 14]> Tudo acima do Outlook 2010 <![endif]-- >
