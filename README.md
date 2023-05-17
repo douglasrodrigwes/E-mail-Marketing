@@ -60,7 +60,7 @@ Comentário condicional no css:
 <br>
 
 Versões do Outlook | Código
-:--: | :--:
+:-- | :--:
 Todos os Windows Outlook. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
 Todos os Windows Outlook. <i>Mais comum</i> | <!--[if mso]> your code <![endif]-->
 
