@@ -65,13 +65,13 @@ Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar 
 Versões do Outlook | Códigos
 :--: | :--:
 Todos os windows outlook | < !--[if mso]> your code <![endif]-- >
-Outlook 2000 | < !--[if mso 9]> your code <![endif]-- >
-Outlook 2002 | < !--[if mso 10]> your code <![endif]-- >
-Outlook 2003 | < !--[if mso 11]> your code <![endif]-- > 
-Outlook 2007 | < !--[if mso 12]> your code <![endif]-- >
-Outlook 2010 | < !--[if mso 14]> your code <![endif]-- > 
-Outlook 2013 | < !--[if mso 15]> your code <![endif]-- >
-Outlook 2016 | < !--[if mso 16]> your code <![endif]-- > 
+Outlook 2000 | < !--[if mso 9]> seu código <![endif]-- >
+Outlook 2002 | < !--[if mso 10]> seu código <![endif]-- >
+Outlook 2003 | < !--[if mso 11]> seu código <![endif]-- > 
+Outlook 2007 | < !--[if mso 12]> seu código <![endif]-- >
+Outlook 2010 | < !--[if mso 14]> seu código <![endif]-- > 
+Outlook 2013 | < !--[if mso 15]> seu código <![endif]-- >
+Outlook 2016 | < !--[if mso 16]> seu código <![endif]-- > 
 
 <br>
 
@@ -80,12 +80,12 @@ Os operadores permitem criar expressões condicionais para segmentar diferentes 
 
 Lógica | Descrição | Códigos
 :--: | :--: | :--:
-gt | Maior que | < !--[if gt mso 14]> Everything above Outlook 2010 <![endif]-- > 
-lt | Menor que | < !--[if lt mso 14]> Everything below Outlook 2010 <![endif]-- >
-gte | Melhor que ou igual a | < !--[if gte mso 14]> Outlook 2010 and above <![endif]-- >
-lte | Menos que ou igual a | < !--[if lte mso 14]> Outlook 2010 and below <![endif]-- >
-l  | Ou | < !--[if (mso 12)|(mso 16)]> Outlook 2007 / 2016 only <![endif]-- >
-! | Não | 	< !--[if !mso] >< !-- > All Outlooks will ignore this < !--<![endif]-- >
+gt | Maior que | < !--[if gt mso 14]> Tudo acima do Outlook 2010 <![endif]-- > 
+lt | Menor que | < !--[if lt mso 14]> Tudo acima do Outlook 2010 <![endif]-- >
+gte | Melhor que ou igual a | < !--[if gte mso 14]> Outlook 2010 e superior <![endif]-- >
+lte | Menos que ou igual a | < !--[if lte mso 14]> Outlook 2010 e superior <![endif]-- >
+l  | Ou | < !--[if (mso 12)|(mso 16)]> Outlook 2007 / 2016 apenas <![endif]-- >
+! | Não | 	< !--[if !mso] >< !-- > Todos os Outlooks irão ignorar isso < !--<![endif]-- >
 
 
 
