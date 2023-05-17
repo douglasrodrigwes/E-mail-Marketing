@@ -71,7 +71,8 @@ Tabela fantasma:
       <td width="340">
         <![endif]-->
             <div style="display:inline-block; width:100%; min-width:200px; max-width:340px;">
-              O Outlook não pode renderizar o CSS neste DIV, mas outros clientes de e-mail podem, então agrupamos isso em uma tabela fantasma que replica o estilo de área de trabalho da DIV. Neste caso, um contêiner de 340px de largura.
+              O Outlook não pode renderizar o CSS neste DIV, mas outros clientes de e-mail podem, então agrupamos isso em uma 
+              tabela fantasma que replica o estilo de área de trabalho da DIV. Neste caso, um contêiner de 340px de largura.
             </div>
         <!--[if mso]>
       </td>
