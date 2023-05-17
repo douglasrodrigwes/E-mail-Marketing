@@ -22,14 +22,14 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 <br>
 
 ## Comentários condicionais
-A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (< !-- -- >), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>outlook</i> baseadas no Word.
+A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (< !-- -- >), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>Outlook</i> baseadas no Word.
 
 Pontos históricos interessantes que são relevantes para o comentário condicional:
  - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
  - <b>Primeiro iphone:</b> Em 2007, a Apple lançou o primeiro iPhone.
- - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o <i>outlook</i> 2007 no <i>windows</i> e seu novo mecanismo de renderização HTML e CSS - Word.
+ - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o <i>Outlook</i> 2007 no <i>Windows</i> e seu novo mecanismo de renderização HTML e CSS - Word.
  - <b>Apple + futuro:</b> A Apple abre um caminho de possibilidades para seus usuários e desenvolvedores.
- - <b>O outlook:</b> Enquanto isso, o <i>outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
+ - <b>O outlook:</b> Enquanto isso, o <i>Outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
  
 ```
 Estrutura do comentário condicional:
@@ -60,7 +60,7 @@ Comentário condicional no css:
 <br>
 
 ## Tabelas fantasmas 
-Uma abordagem comum para lidar com problemas de renderização no Outlook é o uso de tags MSO para criar "tabelas fantasmas". Essas tabelas são criadas para evitar que os e-mails híbridos se desintegrem no <i>outlook</i>. No design híbrido, usamos propriedades CSS como inline-block, max-width e min-width para empilhar as colunas da tabela. No entanto, o <i>outlook</i> não oferece suporte a essas propriedades CSS, então recorremos às tags MSO para criar essas "tabelas fantasmas" que aplicam uma largura fixa somente para o Outlook. Isso nos permite garantir uma renderização consistente do conteúdo nos diferentes clientes de e-mail.
+Uma abordagem comum para lidar com problemas de renderização no <i>Outlook</i> é o uso de tags MSO para criar "tabelas fantasmas". Essas tabelas são criadas para evitar que os e-mails híbridos se desintegrem no <i>Outlook</i>. No design híbrido, usamos propriedades CSS como inline-block, max-width e min-width para empilhar as colunas da tabela. No entanto, o <i>Outlook</i> não oferece suporte a essas propriedades CSS, então recorremos às tags MSO para criar essas "tabelas fantasmas" que aplicam uma largura fixa somente para o Outlook. Isso nos permite garantir uma renderização consistente do conteúdo nos diferentes clientes de e-mail.
 
 ```
 Tabela fantasma:
@@ -83,8 +83,8 @@ Tabela fantasma:
 
 <br>
 
-## Direcionando versões específicas do outlook
-Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do <i>outlook</i>. No entanto, ocasionalmente, ao testar com o litmus, um e-mail pode parecer bom em uma versão do Outlook, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do <i>outlook</i>, excluindo outras.
+## Direcionando versões específicas do Outlook
+Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do <i>Outlook</i>. No entanto, ocasionalmente, ao testar com o litmus, um e-mail pode parecer bom em uma versão do <i>Outlook</i>, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do <i>outlook</i>, excluindo outras.
 
 Versões do Outlook | Código
 :--: | :--:
@@ -100,7 +100,7 @@ Outlook 2016 | < !--[if mso 16]> seu código <![endif]-- >
 <br>
 
 ## Lógica condicional 
-Os operadores permitem criar expressões condicionais para segmentar diferentes versões do <i>outlook</i>.
+Os operadores permitem criar expressões condicionais para segmentar diferentes versões do <i>Outlook</i>.
 
 Lógica | Descrição | Código
 :--: | :--: | :--:
