@@ -23,7 +23,7 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 
 ## Comentários condicionais
 A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (<!-- -->), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido.
-<br>
+
 Pontos históricos interessantes que são relevantes para o comentário condicional:
  - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
  - <b>Primeiro iphone:</b> Em 2007, a Apple lançou o primeiro iPhone.
