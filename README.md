@@ -33,7 +33,7 @@ Pontos históricos interessantes que são relevantes para o comentário condicio
  <br>
  
 ```
-## Estrutura do comentário condicional 
+Estrutura do comentário condicional 
 
 <!--[if mso]>
     <table>
