@@ -57,7 +57,12 @@ Comentário condicional no css:
 <![endif]-->
 ```
 
-Versões do Outlook | Código
+<br>
+
+## Direcionando versões específicas do Outlook
+Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do Outlook. No entanto, ocasionalmente, ao testar com o Litmus, um e-mail pode parecer bom em uma versão do Outlook, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do Outlook, excluindo outras.
+
+Versões do Outlook | Códigos
 :--: | :--:
 Todos os Windows Outlook | < !--[if mso]> your code <![endif]-- >
 Outlook 2000 | < !--[if mso 9]> your code <![endif]-- >
