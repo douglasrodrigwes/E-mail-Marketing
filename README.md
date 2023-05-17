@@ -18,4 +18,21 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
   - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mails.<br> 
   - Gary Thuerk, gerente de marketing da <i>Digital Equipment Corp</i>, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
   - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.    
+
+
+## Comentários condicionais
+A Microsoft introduziu os comentários condicionais em 1999 no Internet Explorer 5. A ideia é inteligente: dentro de um comentário HTML normal (<!-- -->), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido.
+<br>
+Pontos históricos interessantes que são relevantes para o comentário condicional:
+ - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
+ - <b>Primeiro iphone:</b> Em 2007, a Apple lançou o primeiro iPhone.
+ - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o outlook 2007 no Windows e seu novo mecanismo de renderização HTML e CSS: Word.
+ - <b>Apple + futuro:</b> A Apple abre um caminho de possibilidades para seus usuários e desenvolvedores.
+ - <b>O outlook:</b> Enquanto isso, o Outlook condenou os e-mails em HTML em um código ultrapassado e obsoleto. 
+
+   
+
+
+
+
  
