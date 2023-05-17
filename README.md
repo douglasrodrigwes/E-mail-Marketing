@@ -44,6 +44,18 @@ Estrutura do comentário condicional:
     </table>
 <![endif]-->
 ```
+
+```
+Comentário condicional no css:
+
+<!--[if mso]>
+    <style>
+        .example-class {
+            /* CSS específico que você quer que pegue no Outlook, vai aqui :) */
+        }
+    </style>
+<![endif]-->
+```
    
 
 
