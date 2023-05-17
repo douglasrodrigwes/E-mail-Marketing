@@ -60,7 +60,7 @@ Comentário condicional no css:
 <br>
 
 ## Tabelas fantasmas 
-Uma abordagem comum para lidar com problemas de renderização no Outlook é o uso de tags MSO para criar "tabelas fantasmas". Essas tabelas são criadas para evitar que os e-mails híbridos se desintegrem no Outlook. No design híbrido, usamos propriedades CSS como inline-block, max-width e min-width para empilhar as colunas da tabela. No entanto, o Outlook não oferece suporte a essas propriedades CSS, então recorremos às tags MSO para criar essas "tabelas fantasmas" que aplicam uma largura fixa somente para o Outlook. Isso nos permite garantir uma renderização consistente do conteúdo nos diferentes clientes de e-mail.
+Uma abordagem comum para lidar com problemas de renderização no Outlook é o uso de tags MSO para criar "tabelas fantasmas". Essas tabelas são criadas para evitar que os e-mails híbridos se desintegrem no <i>outlook</i>. No design híbrido, usamos propriedades CSS como inline-block, max-width e min-width para empilhar as colunas da tabela. No entanto, o <i>outlook</i> não oferece suporte a essas propriedades CSS, então recorremos às tags MSO para criar essas "tabelas fantasmas" que aplicam uma largura fixa somente para o Outlook. Isso nos permite garantir uma renderização consistente do conteúdo nos diferentes clientes de e-mail.
 
 ```
 Tabela fantasma:
@@ -71,8 +71,8 @@ Tabela fantasma:
       <td width="340">
         <![endif]-->
             <div style="display:inline-block; width:100%; min-width:200px; max-width:340px;">
-              O Outlook não pode renderizar o CSS neste DIV, mas outros clientes de e-mail podem, então agrupamos isso em uma 
-              tabela fantasma que replica o estilo de área de trabalho da DIV. Neste caso, um contêiner de 340px de largura.
+              O Outlook não pode renderizar o CSS neste DIV, mas outros clientes de e-mail podem, então agrupamos isso em 
+              uma tabela fantasma que replica o estilo de área de trabalho da DIV. Neste caso, um contêiner de 340px de largura.
             </div>
         <!--[if mso]>
       </td>
