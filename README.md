@@ -5,11 +5,13 @@ E-mail-Marketing
 É um canal de marketing atraente, uma forma de pegar um serviço digital e unir o marketing direto e marketing digital, para assim usá-lo para promover seus produtos, serviços ou marcas da sua empresa. O e-mail marketing pode sugerir itens e ofertas recentes da sua empresa, podendo ser integrado ou automatizado, dependendo da plataforma. Ele pode desempenhar um papel na análise e estratégia de marketing, com geração de leads, reconhecimento da marca, relacionamento e fidelização de futuros clientes, e manter os clientes sempre engajados com diferentes tipos de e-mail marketing para diversos públicos.
 </p>
 <br>
+
 ## Vantagens do e-mail marketing
 <p>
 O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois sendo quase sempre o usuário forçado a realizar algum tipo de ação. O e-mail sempre estará na caixa de entrada até ser lido, excluído ou arquivado. Com isso, o e-mail marketing conseguimos desenvolver um relacionamento com os clientes, ao mesmo tempo que direciona algum tipo de tráfego que você queira que as pessoas visitem.  
 </p>
 <br>
+
 ## Curiosidades
 <p>
   - O primeiro e-mail foi enviado em 1971 : )<br>
