@@ -27,10 +27,22 @@ A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explo
 Pontos históricos interessantes que são relevantes para o comentário condicional:
  - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
  - <b>Primeiro iphone:</b> Em 2007, a Apple lançou o primeiro iPhone.
- - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o <i>outlook</i> 2007 no <i>Windows</i> e seu novo mecanismo de renderização HTML e CSS - Word.
+ - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o <i>outlook</i> 2007 no <i>windows</i> e seu novo mecanismo de renderização HTML e CSS - Word.
  - <b>Apple + futuro:</b> A Apple abre um caminho de possibilidades para seus usuários e desenvolvedores.
- - <b>O outlook:</b> Enquanto isso, o <i>outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto. 
-
+ - <b>O outlook:</b> Enquanto isso, o <i>outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
+ <br>
+```
+<!--[if mso]>
+    <table>
+      <tr>
+        <td>
+        /* O conteúdo HTML específico que você quer que pegue no Outlook, vai aqui :)*/
+        </td>
+      </tr>
+    </table>
+<![endif]-->
+}
+```
    
 
 
