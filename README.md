@@ -17,10 +17,9 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 <br>
 
 ## Curiosidades
-<p>
-  &nbsp - O primeiro e-mail foi enviado em 1971 : )<br>
-  &nbsp - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
-  &nbsp - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mail.<br> 
-  &nbsp - Gary Thuerk, gerente de marketing da Digital Equipment Corp, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
-  &nbsp - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.    
-</p>  
+  - O primeiro e-mail foi enviado em 1971 : )<br>
+  - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
+  - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mail.<br> 
+  - Gary Thuerk, gerente de marketing da Digital Equipment Corp, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
+  - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.    
+ 
