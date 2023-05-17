@@ -62,7 +62,7 @@ Comentário condicional no css:
 Versões do Outlook | Código
 :--: | :--:
 Todos os Windows Outlook | (<!--[if mso]> your code <![endif]-->)
-Outlook 2000 | (<!--[if mso 9]> your code <![endif]-->)
+Outlook 2000 | <!--[if mso 9]> your code <![endif]-->
 Outlook 2002 | (<!--[if mso 10]> your code <![endif]-->)
 Outlook 2003 | (<!--[if mso 11]> your code <![endif]-->)
 Outlook 2007 | (<!--[if mso 12]> your code <![endif]-->)
