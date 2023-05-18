@@ -22,14 +22,14 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 <br>
 
 ## Comentários condicionais
-A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (< !-- -- >), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>Outlook</i> baseadas no Word.
+A Microsoft introduziu os comentários condicionais em 1999 no <i>Internet Explorer 5</i>. A ideia é inteligente, pois dentro de um comentário HTML normal (< !-- -- >), você pode codificar uma condição que tornará o restante do conteúdo visível se for cumprido. Os comentários condicionais do <i>Outlook</i> nos permitem adicionar bits de HTML que são lidos apenas pelas versões do <i>Outlook</i> baseadas no Word.
 
 Pontos históricos interessantes que são relevantes para o comentário condicional:
  - <b>Mecanismo de renderização:</b> O ponto inicial começa aqui, onde temos o Windows e seu novo mecanismo de renderização.
  - <b>Primeiro iphone:</b> Em 2007, a Apple lançou o primeiro iPhone.
  - <b>Microsoft:</b> Em 2007, a Microsoft introduziu o <i>Outlook</i> 2007 no <i>Windows</i> e seu novo mecanismo de renderização HTML e CSS - Word.
  - <b>Apple + futuro:</b> A Apple abre um caminho de possibilidades para seus usuários e desenvolvedores.
- - <b>O outlook:</b> Enquanto isso, o <i>Outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
+ - <b>O Outlook:</b> Enquanto isso, o <i>Outlook</i> condenou os e-mails em HTML em um código ultrapassado e obsoleto.
  
 ```
 Estrutura do comentário condicional:
@@ -84,11 +84,11 @@ Tabela fantasma:
 <br>
 
 ## Direcionando versões específicas do Outlook
-Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do <i>Outlook</i>. No entanto, ocasionalmente, ao testar com o litmus, um e-mail pode parecer bom em uma versão do <i>Outlook</i>, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do <i>outlook</i>, excluindo outras.
+Ao desenvolver e testar e-mails, geralmente usamos < !--[if mso] > para abordar todas as versões do <i>Outlook</i>. No entanto, ocasionalmente, ao testar com o litmus, um e-mail pode parecer bom em uma versão do <i>Outlook</i>, mas ficar com problemas em outra. Embora seja raro, isso pode acontecer e existem algumas maneiras de segmentar versões específicas do <i>Outlook</i>, excluindo outras.
 
 Versões do Outlook | Código
 :--: | :--:
-Todos os windows outlook | < !--[if mso]> your code <![endif]-- >
+Todos os windows Outlook | < !--[if mso]> your code <![endif]-- >
 Outlook 2000 | < !--[if mso 9]> seu código <![endif]-- >
 Outlook 2002 | < !--[if mso 10]> seu código <![endif]-- >
 Outlook 2003 | < !--[if mso 11]> seu código <![endif]-- > 
