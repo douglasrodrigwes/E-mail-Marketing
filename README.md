@@ -22,7 +22,6 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 <br>
 
 ## E-mail como imagem?
-
 O uso do e-mail marketing como uma imagem chapada (ou seja, uma imagem única exportado seu corpo como um .png .jpg ou qualquer outro arquivo sem conteúdo de texto) pode não ser uma boa prática pelas seguintes razões:
 
  - <b>Acessibilidades:</b> Muitos usuários de e-mail têm configurações que bloqueiam imagens por padrão ou as exibem apenas quando solicitadas. Se o seu e-mail for composto principalmente por uma imagem, os destinatários podem não receber a mensagem que você deseja transmitir e ir direto para a caixa de spam.
@@ -51,6 +50,13 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 <br>
 
 ## Péssimas práticas do e-mail marketing
+ - E-mails como imagem chapada.
+ - E-mails muito extensos com volumes de imagens e textos muito grandes.
+ - Falta de personalização do e-mail.
+ - Falta de padronização do e-mail.
+ - Uso excessivo de cores e fontes que podem vir a dificultar na leitura ou na visualização do modo dark.
+ - E-mails não responsivos podem deixar uma impressão negativa para os usuários e dificultar sua experiência na leitura e abertura do conteúdo.
+ - Dependendo se o botão precisar ser arredondado, às vezes é melhor utilizar uma imagem em vez de depender exclusivamente do CSS. Isso ocorre porque alguns provedores de e-mail podem não renderizar corretamente a forma arredondada do botão quando estilizado apenas com CSS, resultando em uma aparência quadrada. Utilizar uma imagem garante que o botão permaneça arredondado e com o design desejado, independentemente do provedor de e-mail utilizado
 
 <br>
 
