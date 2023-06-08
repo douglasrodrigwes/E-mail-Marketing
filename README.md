@@ -51,9 +51,10 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 
 ## Péssimas práticas do e-mail marketing
  - E-mails como imagem chapada.
- - E-mails muito extensos com volumes de imagens e textos muito grandes.
  - Falta de personalização do e-mail.
  - Falta de padronização do e-mail.
+ - Links quebrados podem prejudicar a experiência do usuário.
+ - E-mails muito extensos com volumes de imagens e textos muito grandes.
  - Uso excessivo de cores e fontes que podem vir a dificultar na leitura ou na visualização do modo dark.
  - E-mails não responsivos podem deixar uma impressão negativa para os usuários e dificultar sua experiência na leitura e abertura do conteúdo.
  - Dependendo se o botão precisar ser arredondado, às vezes é melhor utilizar uma imagem em vez de depender exclusivamente do CSS. Isso ocorre porque alguns provedores de e-mail podem não renderizar corretamente a forma arredondada do botão quando estilizado apenas com CSS, resultando em uma aparência quadrada. Utilizar uma imagem garante que o botão permaneça arredondado e com o design desejado, independentemente do provedor de e-mail utilizado
