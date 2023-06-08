@@ -41,7 +41,7 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 
 <br>
 
-Péssimas práticas do e-mail marketing
+## Péssimas práticas do e-mail marketing
 
 <br>
 
@@ -135,17 +135,15 @@ lte | Menos que ou igual a | < !--[if lte mso 14]> Outlook 2010 e superior <![en
 l  | Ou | < !--[if (mso 12) l (mso 16)] > Outlook 2007 / 2016 apenas < ![endif]-- >
 ! | Não | 	< !--[if !mso] >< !-- > Todos os Outlooks irão ignorar isso < !--<![endif]-- >
 
-## Lógica condicional 
-Os operadores permitem criar expressões condicionais para segmentar diferentes versões do <i>Outlook</i>.
+<br>
 
-Lógica | Descrição | Código
-:--: | :--: | :--:
-gt | Maior que | < !--[if gt mso 14]> Tudo acima do Outlook 2010 <![endif]-- > 
-lt | Menor que | < !--[if lt mso 14]> Tudo acima do Outlook 2010 <![endif]-- >
-gte | Melhor que ou igual a | < !--[if gte mso 14]> Outlook 2010 e superior <![endif]-- >
-lte | Menos que ou igual a | < !--[if lte mso 14]> Outlook 2010 e superior <![endif]-- >
-l  | Ou | < !--[if (mso 12) l (mso 16)] > Outlook 2007 / 2016 apenas < ![endif]-- >
-! | Não | 	< !--[if !mso] >< !-- > Todos os Outlooks irão ignorar isso < !--<![endif]-- >
+## LTR
+
+<br>
+
+## Links para consultas
+
+
 
 
 
