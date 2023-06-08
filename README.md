@@ -46,6 +46,21 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 <br>
 
 ## Boas práticas do e-mail marketing
+ - Largura para, os e-mails por padrão sempre de 600px.
+ - Certifique-se de utilizar 13px | 14px para textos e 20px | 22px para títulos.  
+ - Utilizar fontes seguras e padrões.
+ - Fontes como Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana e Webdings são algumas das fontes universalmente suportadas que podem usar para a construção de um e-mail marketing.
+ - Layout de coluna única é simples e costuma performar muito bem.
+ - E-mails responsivos.
+ - Tomar cuidado com cor de fundo, pois dependo do cliente de e-mail pode ser alterado.
+ - É uma prática recomendada definir a cor de fundo na tag <body></body> para evitar problemas relacionados à alteração da cor de fundo do seu e-mail. Dessa forma, você garante que o fundo permaneça consistente e o design do e-mail seja preservado como pretendido.
+ - Tomar cuidado com espaços em branco.
+ - Utilizar mais textos que imagens.
+ - Dividir os conteúdos dos e-mails em blocos é uma boa prática.
+ - Usar imagens adequadamente e em pouco volume se possível.
+ - Botões clicáveis com o link funcionando corretamente.
+ - Descrever imagens um pouco mais detalhadas, pois isso ajuda na acessibilidade do e-mail. 
+ - É possível rastrear e-mails para analisar o engajamento dos assinantes e identificar quais mensagens são mais eficazes em campanhas. O rastreamento de e-mails permite uma avaliação mais precisa do envolvimento dos usuários, ajudando a otimizar futuras estratégias de marketing.
 
 <br>
 
