@@ -23,6 +23,15 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 
 ## E-mail como imagem?
 
+O uso do e-mail marketing como uma imagem chapada (ou seja, uma imagem única exportado seu corpo como um .png .jpg ou qualquer outro arquivo sem conteúdo de texto) pode não ser uma boa prática pelas seguintes razões:
+
+ - Acessibilidades: Muitos usuários de e-mail têm configurações que bloqueiam imagens por padrão ou as exibem apenas quando solicitadas. Se o seu e-mail for composto principalmente por uma imagem, os destinatários podem não receber a mensagem que você deseja transmitir e ir direto para a caixa de spam.
+ - Mensagens bloqueadas: Alguns servidores de e-mail ou programas de filtro podem bloquear e-mails com muitas imagens ou considerá-los suspeitos de spam. Isso pode fazer com que seu e-mail não alcance a caixa de entrada dos destinatários e com isso não ter a mensagem visualizada.
+ - Carregamento lento: Dependendo da conexão de internet do destinatário ou das configurações do dispositivo, as imagens podem demorar a ser carregadas. Se a imagem for a parte principal da mensagem e não for exibida rapidamente, o destinatário pode perder o interesse ou até mesmo excluir o e-mail sem lê-lo.
+ - Dificuldade de leitura: Se o conteúdo principal estiver incorporado em uma imagem, os destinatários não poderão pesquisar o texto, copiar trechos importantes ou traduzi-lo facilmente. Isso pode dificultar a compreensão da mensagem e a interação com o conteúdo. É importante salientar que o usuário não irá conseguir acessar os links de textos caso o e-mail possua, pois como é uma imagem não será possível o usuário clicar.
+
+Para obter melhores resultados no e-mail marketing, é recomendável utilizar uma combinação equilibrada de imagens e texto. Isso garante que sua mensagem seja acessível, legível e capaz de transmitir informações importantes, mesmo que as imagens não sejam carregadas corretamente, mas claro que sempre pensando em um e-mail que atenda as boas práticas e acessibilidade para um bom e-mail profissional.
+
 <br>
 
 ## Estrutura do e-mail marketing
