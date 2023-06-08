@@ -17,7 +17,31 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
   - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
   - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mails.<br> 
   - Gary Thuerk, gerente de marketing da <i>Digital Equipment Corp</i>, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
-  - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.    
+  - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.  
+
+<br>
+
+## E-mail como imagem?
+
+<br>
+
+## Estrutura do e-mail marketing
+
+<br>
+
+## CSS no e-mail marketing 
+
+<br>
+
+## Responsividade 
+
+<br>
+
+## Boas práticas do e-mail marketing
+
+<br>
+
+Péssimas práticas do e-mail marketing
 
 <br>
 
