@@ -38,16 +38,24 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 <br>
 
 ## CSS no e-mail marketing 
+O uso de CSS (Cascading Style Sheets) no e-mail marketing pode ser um pouco mais restrito do que no desenvolvimento de páginas da web tradicionais. Isso ocorre porque diferentes clientes de e-mail possuem suporte variável para as propriedades CSS e podem interpretá-las de maneira diferente. Além disso, algumas versões mais antigas de clientes de e-mail têm suporte limitado para CSS.
+
+ - <b>Inline CSS:</b> A melhor prática para garantir que as propriedades CSS sejam consistentemente interpretadas pelos clientes de e-mail é usar CSS inline. Isso significa que você deve incluir os estilos diretamente nos elementos HTML, em vez de referenciar um arquivo CSS externo. Dessa forma, as propriedades CSS ficam incorporadas nos elementos específicos do e-mail.
+ - <b>Propriedades CSS suportadas:</b> Alguns clientes de e-mail têm suporte limitado para propriedades CSS mais avançadas. É recomendável usar propriedades CSS básicas e amplamente suportadas, como cores, fontes, tamanhos, margens, preenchimentos e alinhamento de texto. Evite propriedades mais complexas ou experimentais que possam não ser interpretadas corretamente pelos clientes de e-mail.
+ - <b>Fallbacks e degradação graciosa:</b> Como nem todos os clientes de e-mail suportam todos os recursos do CSS, é aconselhável fornecer fallbacks ou estilos de degradação graciosa para garantir uma boa experiência mesmo nos clientes que não interpretam determinadas propriedades CSS. Isso pode envolver fornecer estilos alternativos ou estruturas de conteúdo que sejam compreensíveis e usáveis mesmo sem o suporte CSS completo.
+
+Lembre-se de que o suporte de CSS pode variar entre os clientes de e-mail, portanto, é importante equilibrar a estilização com a garantia de que o conteúdo principal do seu e-mail seja legível e acessível, independentemente do suporte CSS do cliente de e-mail.
 
 <br>
 
 ## Responsividade 
+A responsividade no e-mail marketing refere-se à capacidade de um e-mail se adaptar e ser exibido corretamente em diferentes dispositivos e tamanhos de tela, como computadores desktop, smartphones e tablets. É importante que os e-mails sejam projetados e desenvolvidos de forma responsiva para garantir uma experiência de leitura e interação ideal para os usuários, independentemente do dispositivo que eles estejam usando.
 
 <br>
 
 ## Boas práticas do e-mail marketing
  - Largura para, os e-mails por padrão sempre de 600px.
- - Use o elemento <table></table> para codificar a estrutura do seu e-mail.
+ - Use o elemento table para codificar a estrutura do seu e-mail.
  - Aninhe tabelas para layouts mais complexos.
  - Utilize atributos do elemento, como cellpadding, valign e width, para definir dimensões da tabela e forçar uma estrutura de modelo de caixa.
  - Mantenha seu CSS simples, evitando declarações compostas, código abreviado, propriedades de layout e seletores complexos.
@@ -62,7 +70,7 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
  - Layout de coluna única é simples e costuma performar muito bem.
  - E-mails responsivos.
  - Tomar cuidado com cor de fundo, pois dependo do cliente de e-mail pode ser alterado.
- - É uma prática recomendada definir a cor de fundo na tag <body></body> para evitar problemas relacionados à alteração da cor de fundo do seu e-mail. Dessa forma, você garante que o fundo permaneça consistente e o design do e-mail seja preservado como pretendido.
+ - É uma prática recomendada definir a cor de fundo na tag < body >< /body > para evitar problemas relacionados à alteração da cor de fundo do seu e-mail. Dessa forma, você garante que o fundo permaneça consistente e o design do e-mail seja preservado como pretendido.
  - Tomar cuidado com espaços em branco.
  - Utilizar mais textos que imagens.
  - Dividir os conteúdos dos e-mails em blocos é uma boa prática.
