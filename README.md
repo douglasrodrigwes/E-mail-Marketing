@@ -47,6 +47,15 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 
 ## Boas práticas do e-mail marketing
  - Largura para, os e-mails por padrão sempre de 600px.
+ - Use o elemento <table></table> para codificar a estrutura do seu e-mail.
+ - Aninhe tabelas para layouts mais complexos.
+ - Utilize atributos do elemento, como cellpadding, valign e width, para definir dimensões da tabela e forçar uma estrutura de modelo de caixa.
+ - Mantenha seu CSS simples, evitando declarações compostas, código abreviado, propriedades de layout e seletores complexos.
+ - Inline todo o CSS antes de enviar o e-mail (o Mailchimp pode fazer isso automaticamente).
+ - Use links absolutos para imagens e hospede-as em um servidor confiável (o Mailchimp oferece hospedagem gratuita de imagens).
+ - Evite JavaScript e Flash, pois essas tecnologias não são suportadas pelos clientes de e-mail.
+ - Realize testes extensivos, criando contas de e-mail em diferentes serviços e enviando e-mails para si mesmo. Utilize serviços como o Litmus para auxiliar nos testes.
+ - Considere a compatibilidade com dispositivos móveis e utilize consultas de mídia para ajustar o tamanho do texto e fornecer áreas de acesso adequadas para links.
  - Certifique-se de utilizar 13px | 14px para textos e 20px | 22px para títulos.  
  - Utilizar fontes seguras e padrões.
  - Fontes como Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana e Webdings são algumas das fontes universalmente suportadas que podem usar para a construção de um e-mail marketing.
@@ -173,6 +182,37 @@ l  | Ou | < !--[if (mso 12) l (mso 16)] > Outlook 2007 / 2016 apenas < ![endif]-
 <br>
 
 ## Links para consultas
+ - https://sendpulse.com/knowledge-base/email-service/best-practices/html-email
+ - https://templates.mailchimp.com/getting-started/html-email-basics/
+ - https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2/
+ - https://explore.reallygoodemails.com/new-to-email-coding-heres-where-to-start-2494422f0bd4
+ - https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/
+ - https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/
+ - https://www.smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools/
+ - https://mjml.io/
+ - https://blocksedit.com/email-template-guide/
+ - https://get.foundation/emails/docs/inky.html
+ - https://www.campaignmonitor.com/
+ - https://maizzle.com/
+ - https://get.foundation/emails.html
+ - https://get.foundation/emails/email-templates.html
+ - https://www.cerberusemail.com/
+ - https://htmlemail.io/
+ - https://mailtoui.com/
+ - https://www.hteumeuleu.com/
+ - https://github.com/hteumeuleu
+ - https://proofjump.com/dark-mode-simulator/
+ - https://litmus.com/community/
+ - https://airtable.com/shrJxffTnSHSdIwqN/tbltBA3AOkEaVg8wO
+ - https://reallygoodemails.com/
+ - https://emaillove.com/
+ - https://www.accessible-email.org/
+ - https://proofjump.com/dark-mode-simulator/
+ - https://stackoverflow.design/email/base/mso/
+ - https://www.w3resource.com/html/HTML-comments.php
+ - https://www.atdata.com/blog/history-of-email-marketing#:~:text=The%20first%20email%20marketing%20blast,in%20%2413%20million%20in%20sales.
+
+ 
 
 
 
