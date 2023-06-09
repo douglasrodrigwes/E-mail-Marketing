@@ -12,15 +12,6 @@ O e-mail tornou- se uma ferramenta indispensável para qualquer usuário, pois s
 
 <br>
 
-## Curiosidades
-  - O primeiro e-mail foi enviado em 1971 : )<br>
-  - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
-  - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mails.<br> 
-  - Gary Thuerk, gerente de marketing da <i>Digital Equipment Corp</i>, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
-  - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.  
-
-<br>
-
 ## E-mail como imagem?
 O uso do e-mail marketing como uma imagem chapada (ou seja, uma imagem única exportado seu corpo como um .png .jpg ou qualquer outro arquivo sem conteúdo de texto) pode não ser uma boa prática pelas seguintes razões:
 
@@ -187,6 +178,15 @@ l  | Ou | < !--[if (mso 12) l (mso 16)] > Outlook 2007 / 2016 apenas < ![endif]-
 
 ## LTR
 LTR, ou "<i>Left-to-Right</i>" (da esquerda para a direita), é um termo utilizado no HTML para descrever a direção do texto em uma página da web. No HTML, os elementos de texto são, por padrão, exibidos da esquerda para a direita. Essa direção é adequada para idiomas escritos dessa forma, como o inglês, espanhol, francês, entre outros. Para especificar explicitamente que o texto deve seguir essa direção, pode-se usar a propriedade CSS "direction" com o valor "ltr". Isso garante que o texto seja exibido corretamente e seja lido da esquerda para a direita pelos usuários. É importante definir corretamente a direção do texto, especialmente em casos em que há uma mistura de idiomas ou quando se lida com idiomas RTL (<i>Right-to-Left</i>, da direita para a esquerda), como árabe, hebraico ou persa, que exigem uma direção diferente. Ao entender e utilizar corretamente a direção do texto, os desenvolvedores de páginas da web podem criar uma experiência de leitura adequada para os usuários, garantindo a legibilidade e a correta exibição do conteúdo.
+
+<br>
+
+## Curiosidades
+  - O primeiro e-mail foi enviado em 1971 : )<br>
+  - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
+  - Ray Tomlinson foi a pessoa que introduziu o uso do símbolo "@" nos endereços de e-mails.<br> 
+  - Gary Thuerk, gerente de marketing da <i>Digital Equipment Corp</i>, acabou utilizando deste novo tipo de comunicação direta para enviar o primeiro e-mail comercial, para informar as pessoas sobre um novo produto.<br>
+  - A Lei de Proteção de Dados do Reino Unido, por exemplo, foi alterada para exigir uma opção de "cancelamento" para todos os e-mails de marketing, pois algumas pessoas não queriam receber mais aquela propaganda na sua caixa de entrada.  
 
 <br>
 
