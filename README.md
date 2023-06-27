@@ -181,6 +181,13 @@ LTR, ou "<i>Left-to-Right</i>" (da esquerda para a direita), é um termo utiliza
 
 <br>
 
+## Dark Mode
+A empresa Apple Inc. inseriu o modo escuro ao seu cliente de e-mail para desktop em 2018. No ano seguinte, o Dark Mode chegou ao iOS Mail e outros pesos pesados da indústria, incluindo o Gmail, anunciaram suporte ao Dark Mode. O relatório "Tendências no Engajamento de E-mails" da Litmus indica que, dos e-mails rastreados, cerca de 34% utilizavam o Modo Escuro até agosto de 2022, representando uma adoção constante ano após ano. A plataforma Litmus indica que, dos e-mails rastreados, cerca de 34% utilizavam o Modo Escuro até agosto de 2022, representando uma adoção constante ano após ano.
+
+Segue um manual completo sobre o Dark Mode: https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/
+
+<br>
+
 ## Curiosidades
   - O primeiro e-mail foi enviado em 1971 : )<br>
   - Ray Tomlinson foi a primeira pessoa a enviar o primeiro e-mail, mas sendo constatado neste e-mail apenas uma série de letras e números.<br>
@@ -220,6 +227,7 @@ LTR, ou "<i>Left-to-Right</i>" (da esquerda para a direita), é um termo utiliza
  - https://stackoverflow.design/email/base/mso/
  - https://www.w3resource.com/html/HTML-comments.php
  - https://www.atdata.com/blog/history-of-email-marketing#:~:text=The%20first%20email%20marketing%20blast,in%20%2413%20million%20in%20sales.
+ - https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/
 
  
 
