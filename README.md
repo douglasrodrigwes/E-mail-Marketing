@@ -216,7 +216,7 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
     <center width="100%" style="table-layout:fixed;">
         <div width="100%" style="max-width:600px;">
             <!--[if mso]>
-            <table width="600" max-width:"600px;" cellspacing="0" cellpading="0" border="0" role="presentation" style="direction:ltr; align="center">
+            <table width="600" max-width:"600px;" cellspacing="0" cellpading="0" border="0" align="center" role="presentation" style="direction:ltr;>
             <tr>
             <![endif]-->
 
@@ -225,7 +225,6 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
             </table>
             <![endif]-->
         </div>
-
     </center>
 </body>
 </html>
