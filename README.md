@@ -25,6 +25,211 @@ Para obter melhores resultados no e-mail marketing, é recomendável utilizar um
 <br>
 
 ## Estrutura do e-mail marketing
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light-dark">
+    <meta name="author" content="Douglas Rodrigues - Developer">
+    <!-- Links Externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="">
+    <title>E-mail 01 - Example</title>
+    <style type="text/css">
+        :root {
+            color-scheme: light-dark;
+            supported-color-schemes: light-dark;
+        }
+
+        /* Configurações */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%; 
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+            margin: 0 auto !important;
+        }
+
+        /*  Apple E-mail */
+        *[x-apple-data-detectors],
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        a {
+            word-break: break-all; 
+        }
+        
+        /*  Dark Mode */
+        @media (prefers-color-scheme: dark) {
+            .dark-font {
+                color: #757575 !important;
+            }
+        }
+
+        [data-ogsc] .dark-font {
+            color: #757575 !important;
+        }
+
+        @media only screen and (max-width: 500px) {
+            /* Ltr */
+            th {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .font-14{
+                font-size: 14px !important;
+                line-height: 16px !important;
+            }
+
+            .font-16{
+                font-size: 16px !important;
+                line-height: 18px !important;
+            }
+
+            .font-20{
+                font-size: 20px !important;
+                line-height: 22px !important;
+            }
+
+            .font-24{
+                font-size: 24px !important;
+                line-height: 26px !important;
+            }
+
+            /* Paddings */
+            .padding-mobile {
+                padding: 30px !important;
+            }
+
+            .padding-mobile-height {
+                padding: 30px !important;
+            }
+
+            .padding-ajuste {
+                padding: 0px 0px 32px 0px !important;
+            }
+
+            .padding-zero {
+                padding: 0 !important;
+            }
+
+            .padding-left {
+                padding-top: 10px !important;
+            }
+
+            .padding-right {
+                padding-right: 10px !important;
+            }
+
+            .padding-t-10{
+                padding-top: 10px !important;
+            }
+
+            .padding-t-20{
+                padding-top: 20px !important;
+            }
+
+            .padding-t-30{
+                padding-top: 30px !important;
+            }
+
+            .padding-t-40{
+                padding-top: 40px !important;
+            }
+
+            .padding-b-10{
+                padding-bottom: 10px !important;
+            }
+
+            .padding-b-20{
+                padding-bottom: 20px !important;
+            }
+
+            .padding-b-30{
+                padding-bottom: 30px !important;
+            }
+
+            .padding-b-40{
+                padding-bottom: 40px !important;
+            }
+
+            /* Centralizar */
+            .centraliza {
+                float: none !important;
+            }
+
+            .text-center {
+                text-align: center !important;
+            }
+
+            /* Img */
+            .img-logo{
+                width: 100px !important;
+            }
+
+            .img-full {
+               width: 100% !important;
+            }
+
+            /* Classes Externas */
+        }
+    </style>
+</head>
+<body>
+    <custom name="opencounter" type="tracking" />
+    <center width="100%" style="table-layout:fixed;">
+        <div width="100%" style="max-width:600px;">
+            <!--[if mso]>
+            <table width="600" max-width:"600px;" cellspacing="0" cellpading="0" border="0" role="presentation" style="direction:ltr; align="center">
+            <tr>
+            <![endif]-->
+
+            <!--[if mso]>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+
+    </center>
+</body>
+</html>
+```
 
 <br>
 
