@@ -1,6 +1,6 @@
 ## E-mail-Marketing
 <p align="center">
-  <img src="https://github.com/douglasrodrigwes/E-mail-Marketing/blob/ea0c67bfd4fe4ca6027d958fdab54cd8f3654255/banner-principal.png" width="800" align="center" />
+  <img src="https://github.com/douglasrodrigwes/E-mail-Marketing/blob/ea0c67bfd4fe4ca6027d958fdab54cd8f3654255/banner-principal.png" width="1000" align="center" />
 </p>
 
 <br>
