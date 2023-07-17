@@ -1,4 +1,7 @@
 ## E-mail-Marketing
+<p align="center">
+  <img src="https://github.com/douglasrodrigwes/E-mail-Marketing/blob/ea0c67bfd4fe4ca6027d958fdab54cd8f3654255/banner-principal.png" width="500" align="center" />
+</p>
 
 <br>
 
