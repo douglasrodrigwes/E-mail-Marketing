@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light-dark">
+    <meta name="author" content="Douglas R - Developer">
+    <!-- Links Externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="">
+    <title>BOYNEXTDOOR</title>
+    <style type="text/css">
+        :root {
+            color-scheme: light-dark;
+            supported-color-schemes: light-dark;
+        }
+
+        /* Configurações */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%; 
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+            margin: 0 auto !important;
+        }
+
+        /*  Apple E-mail */
+        *[x-apple-data-detectors],
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        a {
+            word-break: break-all; 
+        }
+        
+        /*  Dark Mode */
+        @media (prefers-color-scheme: dark) {
+            .dark-font {
+                color: #FFFFFF !important;
+            }
+        }
+
+        [data-ogsc] .dark-font {
+            color: #FFFFFF !important;
+        }
+        
+        .sublinhado {
+            position: relative;
+            display: inline-block;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .sublinhado-titulo::before {
+            content: "texto teste";
+            position: absolute;
+            bottom: -5px; /* Distância do sublinhado para o texto */
+            left: 0;
+            width: 100%;
+            height: 2px; /* Espessura do sublinhado */
+            background-color: #000; /* Cor do sublinhado */
+            z-index: -1; /* Coloca o sublinhado atrás do texto */
+        }
+
+        @media only screen and (max-width: 500px) {
+            /* Ltr */
+            th {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .wd-100{
+                width: 100% !important;
+            }
+
+            .font-14{
+                font-size: 14px !important;
+                line-height: 16px !important;
+            }
+
+            .font-16{
+                font-size: 16px !important;
+                line-height: 18px !important;
+            }
+
+            .font-20{
+                font-size: 20px !important;
+                line-height: 22px !important;
+            }
+
+            .font-24{
+                font-size: 24px !important;
+                line-height: 26px !important;
+            }
+
+            /* Paddings */
+            .padding-mobile {
+                padding: 30px !important;
+            }
+
+            .padding-mobile-1 {
+                padding: 20px 20px 0px !important;
+            }
+
+            .padding-mobile-height {
+                padding: 30px !important;
+            }
+
+            .padding-ajuste {
+                padding: 0px 0px 32px 0px !important;
+            }
+
+            .padding-zero {
+                padding: 0 !important;
+            }
+
+            .padding-r-zero{
+                padding-right: 0 !important;
+            }
+
+            .padding-l-zero{
+                padding-left: 0 !important;
+            }
+
+            .padding-left-10 {
+                padding-top: 10px !important;
+            }
+
+            .padding-left-20 {
+                padding-top: 20px !important;
+            }
+
+            .padding-right-10 {
+                padding-right: 10px !important;
+            }
+
+            .padding-right-20 {
+                padding-top: 20px !important;
+            }
+
+            .padding-t-10{
+                padding-top: 10px !important;
+            }
+
+            .padding-t-20{
+                padding-top: 20px !important;
+            }
+
+            .padding-t-30{
+                padding-top: 30px !important;
+            }
+
+            .padding-t-40{
+                padding-top: 40px !important;
+            }
+
+            .padding-b-10{
+                padding-bottom: 10px !important;
+            }
+
+            .padding-b-20{
+                padding-bottom: 20px !important;
+            }
+
+            .padding-b-30{
+                padding-bottom: 30px !important;
+            }
+
+            .padding-b-40{
+                padding-bottom: 40px !important;
+            }
+
+            /* Centralizar */
+            .centraliza {
+                float: none !important;
+            }
+
+            .text-center {
+                text-align: center !important;
+            }
+
+            /* Img */
+            .img-logo{
+                width: 100px !important;
+            }
+
+            .img-full {
+               width: 100% !important;
+            }
+
+            /* Classes Externas */
+        }
+    </style>
+</head>
+<body>
+    <custom name="opencounter" type="tracking" />
+    <center width="100%" style="table-layout:fixed;">
+        <div width="100%" style="max-width:600px;">
+            <!--[if mso]>
+            <table width="600" max-width:"600px;" cellspacing="0" cellpading="0" border="0" role="presentation" style="direction:ltr;" align="center">
+            <tr>
+            <![endif]-->
+            <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#F5FF00!important;width:100%;max-width:600px;margin: 0 auto;border-spacing:0;" bgcolor="#F5FF00" border="0" align="center">
+                <!-- Mirror Link -->
+                <tr>
+                    <td style="padding:0px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#000000;border-spacing:0;" bgcolor="#000000" border="0" align="center">
+                            <tr>
+                                <td style="line-height:12px;" align="center">
+                                    <font style="font-family: Arial, sans-serif;color:#FFFFFF;font-size:8px;">Para visualizar no navegador <a href="%%view_email_url%%">click aqui.</a>
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Banner -->
+                <tr>
+                    <td style="padding:0px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#F5FF00!important;border-spacing:0;" bgcolor="#F5FF00" border="0" align="center">
+                            <!-- mini-space -->
+                            <tr>
+                                <td class="padding-t-20" style="padding-top:20px;"></td>
+                            </tr>
+                            <!-- end-mini-space -->
+                            <tr>
+                                <td align="center">
+                                    <img 
+                                    class="img-logo" 
+                                    src="./imgs/logo-hybe.png" 
+                                    alt="Logo Hybe Company" 
+                                    width="100"
+                                    style="display:block;">
+                                </td>
+                            </tr>
+                            <!-- mini-space -->
+                            <tr>
+                                <td class="padding-t-20" style="padding-top:20px;"></td>
+                            </tr>
+                            <!-- end-mini-space -->
+                            <tr>
+                                <td align="center">
+                                    <font class="font-24" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:32px;line-height:34px;letter-spacing:-1.4px;">
+                                        WE BELIEVE IN MUSIC
+                                    </font>
+                                </td>
+                            </tr>
+                            <!-- mini-space -->
+                            <tr>
+                                <td class="padding-t-30" style="padding-top:30px;"></td>
+                            </tr>
+                            <!-- end-mini-space -->
+                            <tr>
+                                <td align="center">
+                                    <img 
+                                    class="img-full" 
+                                    src="./imgs/img-group-01.jpg" 
+                                    alt="Grupo Boy Next Door - álbum [WHO!]" 
+                                    width="100%"
+                                    style="display:block;">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Espaço -->
+                <tr>
+                    <td class="padding-t-30" style="padding-top:30px;"></td>
+                </tr>
+                <!-- Bloco + Textos -->
+                <tr>
+                    <td style="padding: 0 24px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#F5FF00!important;max-width:500px;border-spacing:0;" bgcolor="#F5FF00" border="0" align="center">
+                            <tr>
+                                <td>
+                                    <font class="font-24" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:32px;line-height:34px;letter-spacing:-1.4px;">
+                                        BOYNEXTDOOR
+                                    </font>
+                                    <br><br>
+                                    <font class="font-20" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:20px;line-height:22px;letter-spacing:-1.4px;">
+                                        Finalmente lança seu primeiro álbum [WHO!].
+                                    </font>
+                                    <br><br>
+                                    <font class="font-16" style="font-family: 'Noto Sans KR', sans-serif; color:#000000;font-weight:400;font-size:16px;line-height:24px;letter-spacing:-1.4px;">
+                                        <b>BOYNEXTDOOR</b> significa 'os meninos da porta ao lado' e consiste em 6 membros: <b><i>Seongho, Liu, Myung Jaehyun, Taesan, Leehan e Unhak.</i></b> Como seu nome amigável, <b>BOYNEXTDOOR</b> fala sobre a vida cotidiana com base em faixas fáceis de ouvir e originais, e busca a empatia ao desvendar várias emoções nela.
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Espaço -->
+                <tr>
+                    <td class="padding-t-30" style="padding-top:30px;"></td>
+                </tr>
+                <!-- Bloco + Textos + Imagem -->
+                <tr>
+                    <td style="padding: 0 24px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#FFFFFF!important;border: 1px solid #FFFFFF;max-width:520px;border-bottom-right-radius:16px; border-top-left-radius:16px;" bgcolor="FFFFFF" border="0" align="center">
+                            <tr>
+                                <td style="padding:28px;" align="center">
+                                    <table width="100%" cellspacing="0" cellpading="0" role="presentation" border="0" align="left">
+                                        <tr>
+                                            <th width="184" style="direction:ltr;" valign="top" border="0">
+                                                <table class="centraliza" cellspacing="0" cellpading="0" role="presentation" style="max-width:184px;" valign="top" border="0" align="center">
+                                                    <tr>
+                                                        <td class="padding-ajuste" style="padding-right:30px;" valign="top">
+                                                            <img 
+                                                            src="./imgs/img-album-boy-next-door.jpg" 
+                                                            alt="Mini álbum [WHO!] - BOYNEXTDOOR" 
+                                                            width="184" 
+                                                            style="min-width:184px;display:block;">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </th>
+                                            <th width="300" style="direction:ltr;" valign="top" border="0">
+                                                <table cellspacing="0" cellpading="0" role="presentation" style="max-width:300px;" valign="top" border="0" align="center">
+                                                    <tr>
+                                                        <td align="left">
+                                                            <table cellspacing="0" cellpading="0" style="max-width:300px;" valign="top" border="0" align="left">
+                                                                <tr>
+                                                                    <td class="text-center padding-zero" style="padding-right:35px;"> 
+                                                                        <font class="font-20" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:20px;line-height:22px;letter-spacing:-1.4px;">
+                                                                            1º Álbum Único [WHO!] 
+                                                                        </font>
+                                                                        <br><br>
+                                                                        <font class="font-16" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:400;font-size:16px;line-height:24px; letter-spacing:-1.4px;">
+                                                                            O coração de <b>BOYNEXTDOOR</b> está animado com o amor repentino. Seis jovens confusos por uma excitação desconhecida e emoções transbordantes. Depois de muito pensar, ela finalmente decide confessar.
+                                                                        </font>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- mini-space -->
+                                                    <tr>
+                                                        <td class="padding-t-30" style="padding-top:30px;"></td>
+                                                    </tr>
+                                                     <!-- end-mini-space -->
+                                                    <!-- Botão -->
+                                                    <tr>
+                                                        <td>
+                                                            <table width="100%" cellspacing="0" cellpading="0" valign="top" border="0" align="left">
+                                                                <tr>
+                                                                    <td align="left">
+                                                                        <table class="centraliza" cellspacing="0" cellpading="0" valign="top" border="0" align="left">
+                                                                            <tr>
+                                                                                <td class="button" width="180" height="40" style="background-color:#000000;border-radius:8px; box-sizing:border-box;" align="center">
+                                                                                    <a href="#" target="_blank"
+                                                                                    class="font-14"
+                                                                                    style="font-family: 'Noto Sans KR', sans-serif; color:#FFFFFF;font-weight:400;font-size:16px; line-height:24px;text-decoration:none;width:180px;">COMPRAR</a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Espaço -->
+                <tr>
+                    <td class="padding-t-30" style="padding-top:30px;"></td>
+                </tr>
+                <!-- Bloco 2 colunas -->
+                <tr>
+                    <td style="padding: 0 24px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#F5FF00!important;max-width:480px;border-spacing:0;" bgcolor="#F5FF00" border="0" align="center">
+                            <tr>
+                                <td>
+                                    <table width="100%" cellspacing="0" cellpading="0" role="presentation" border="0" align="center">
+                                        <tr>
+                                            <th class="centraliza wd-100" width="180" style="direction:ltr;" valign="top" border="0">
+                                                <table class="centraliza wd-100" cellspacing="0" cellpading="0" role="presentation" style="width:180px;" valign="top" border="0" align="center">
+                                                    <tr>
+                                                        <td class="wd-100" valign="top">
+                                                            <table class="wd-100" cellspacing="0" cellpading="0" role="presentation" border="0">
+                                                                <tr>
+                                                                    <td class="centraliza wd-100" align="center">
+                                                                        <img 
+                                                                        src="./imgs/img-group-03.jpg" 
+                                                                        alt="Imagem do grupo com os 6 integrantes reunidos em uma sala de estar" 
+                                                                        width="150" 
+                                                                        style="min-width:150px;display:block;">
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- mini-space -->
+                                                                <tr>
+                                                                    <td class="padding-t-20" style="padding-top:20px;"></td>
+                                                                </tr>
+                                                                <!-- end-mini-space -->
+                                                                <tr>
+                                                                    <td class="wd-100 centraliza" align="center">
+                                                                        <font class="font-16" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:20px;line-height:22px;letter-spacing:-0.5px;">
+                                                                            01. I'll Go Back
+                                                                        </font>
+                                                                        <br><br>
+                                                                        <font class="font-14" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:400;font-size:12px;line-height:14px;letter-spacing:-0.5px;">
+                                                                            A primeira paixão traz confusão, ilusão e preocupação. "I'll Go Back" é uma música que expressa problemas e sentimentos intensos ao se apaixonar acidentalmente, compartilhando-os com um amigo.
+                                                                        </font>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- mini-space -->
+                                                                <tr>
+                                                                    <td class="padding-t-20" style="padding-top:20px;"></td>
+                                                                </tr>
+                                                                <!-- end-mini-space -->
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </th>  
+                                            <th class="centraliza wd-100" width="180" style="direction:ltr;" valign="top" border="0">
+                                                <table class="centraliza wd-100" cellspacing="0" cellpading="0" role="presentation" style="width:180px;" valign="top" border="0" align="center">
+                                                    <tr>
+                                                        <td class="wd-100" valign="top">
+                                                            <table class="wd-100" cellspacing="0" cellpading="0" role="presentation" border="0">
+                                                                <tr>
+                                                                    <td class="centraliza wd-100" align="center">
+                                                                        <img 
+                                                                        src="./imgs/img-group-02.jpg" 
+                                                                        alt="Imagem do grupo com os 6 integrantes reunidos em uma sala de estar" 
+                                                                        width="150" 
+                                                                        style="min-width:150px;display:block;">
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- mini-space -->
+                                                                <tr>
+                                                                    <td class="padding-t-20" style="padding-top:20px;"></td>
+                                                                </tr>
+                                                                <!-- end-mini-space -->
+                                                                <tr>
+                                                                    <td class="wd-100 text-center centraliza" align="center">
+                                                                        <font class="font-16" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:600;font-size:20px;line-height:22px;letter-spacing:-0.5px;">
+                                                                            02. One and Only
+                                                                        </font>
+                                                                        <br><br>
+                                                                        <font class="font-14" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:400;font-size:12px;line-height:14px;letter-spacing:-0.5px;">
+                                                                            Confissão sincera, autoconfiança e autenticidade são fundamentais ao se apaixonar.
+                                                                        </font>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr> 
+                <!-- Espaço -->
+                <tr>
+                    <td class="padding-t-30" style="padding-top:30px;"></td>
+                </tr>
+                <!-- Bloco + Textos + Imagem -->
+                <tr>
+                    <td style="padding: 0 24px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;background-color:#F5FF00!important;max-width:520px;border-spacing:0;" bgcolor="#F5FF00" border="0" align="center">
+                            <tr>
+                                <td class="padding-zero" style="padding:0px 28px;" align="center">
+                                    <table width="100%" cellspacing="0" cellpading="0" role="presentation" border="0" align="center">
+                                        <tr>
+                                            <td align="center">
+                                                <img
+                                                class="img-full"  
+                                                src="./imgs/img-group-04.jpg" 
+                                                alt="BOYNEXTDOOR - 3 integrantes dormindo" 
+                                                width="520" 
+                                                style="display:block;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="padding-mobile-1" style="padding:20px 50px 0px;" align="center">
+                                                <font class="font-16" style="font-family: 'Noto Sans KR', sans-serif; color:#000000;font-weight:600;font-size:20px;line-height:22px;letter-spacing:-1.5px;">
+                                                    03. Serenade
+                                                </font>
+                                                <br><br>
+                                                <font class="font-14" style="font-family: 'Noto Sans KR', sans-serif;color:#000000;font-weight:400;font-size:12px;line-height:24px;letter-spacing:-0.5px;">
+                                                    Não importa o quão confiante ou determinado você seja, é normal sentir nervosismo. Pela primeira vez, meu rosto endurece, minhas pernas tremem e até meu coração se agita. Abraço essas emoções e expresso minha serenata com sinceridade. Não tenho muito, mas confio em amar você mais do que tudo.
+                                                </font>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Espaço -->
+                <tr>
+                    <td class="padding-t-30" style="padding-top:30px;"></td>
+                </tr>
+                <!-- Footer -->
+                <tr>
+                    <td style="padding: 0 24px 30px;">
+                        <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;max-width:520px;" border="0" align="center">
+                            <tr>
+                                <td class="padding-mobile" style="background-color:#000000!important;padding-bottom:10px;border-radius:16px;" bgcolor="000000">
+                                    <table class="padding-zero" cellspacing="0" cellpading="0" role="presentation" style="padding:28px;" border="0" align="center">
+                                        <tr>
+                                            <td class="padding-t-30 padding-b-30" style="padding-bottom:30px;" align="center">
+                                                <img 
+                                                class="img-logo" 
+                                                src="./imgs/logo-koz.png" 
+                                                alt="Logo KOZ Entertainment" 
+                                                width="160"
+                                                style="display:block;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table width="100%" cellspacing="0" cellpading="0" role="presentation" style="direction:ltr;max-width:400px;" border="0" align="center">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <table cellspacing="0" cellpading="0" role="presentation" border="0">
+                                                                <tr>
+                                                                    <th width="180" style="direction:ltr;padding-right:30px;">
+                                                                        <table class="centraliza padding-b-20" cellspacing="0" cellpading="0" role="presentation" style="max-width:180px;" border="0" align="center">
+                                                                            <tr>
+                                                                                <td class="padding-right" style="padding-right:30px;" align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-instagram.png" 
+                                                                                        alt="Ícone Instagram"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td class="padding-right" style="padding-right:30px;" align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-facebook.png" 
+                                                                                        alt="Ícone Facebook"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-tiktok.png" 
+                                                                                        alt="Ícone TikTok"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </th>
+                                                                    <th width="180" style="direction:ltr;">
+                                                                        <table class="centraliza" cellspacing="0" cellpading="0" role="presentation" style="max-width:180px;" border="0" align="center">
+                                                                            <tr>
+                                                                                <td class="padding-right" style="padding-right:30px;" align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-x.png" 
+                                                                                        alt="Ícone X"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td class="padding-right" style="padding-right:30px;" align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-youtube.png" 
+                                                                                        alt="Ícone Youtube"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td align="center">
+                                                                                    <a href="#" target="_blank">
+                                                                                        <img 
+                                                                                        src="./imgs/icon-wechat.png" 
+                                                                                        alt="Ícone WeChat"
+                                                                                        width="40"
+                                                                                        style="min-width:40px;display:block;">
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </th>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- mini-space -->
+                                        <tr>
+                                            <td class="padding-t-30" style="padding-top:30px;"></td>
+                                        </tr>
+                                        <!-- end-mini-space -->
+                                        <tr>
+                                            <td class="padding-zero" style="padding:0px 30px 0px;" align="center">
+                                                <font class="font-12" style="font-family: 'Noto Sans KR', sans-serif;color:#ffffff;font-weight:400;font-size:12px;line-height:14px;letter-spacing:-0.5px;">
+                                                    A KOZ Entertainment (KOZ 엔터테인먼트) é uma gravadora sul-coreana especializada em música, fundada em 2019 por Zico. Nosso compromisso é produzir os grandes artistas do futuro da música. 
+                                                    <br><br>
+                                                    Descubra o futuro da música conosco!
+                                                </font>
+                                                <br><br>
+                                                <font class="font-12" style="font-family: 'Noto Sans KR', sans-serif;color:#ffffff;font-weight:400;font-size:12px;line-height:14px;letter-spacing:-0.5px;">
+                                                    Caso não queira receber promoções dos seus artistas, <a href="#" alias="Unsubscribe" target="_blank" style="color:#2357CB;">clique aqui.</a>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if mso]>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </center>
+</body>
+</html>
